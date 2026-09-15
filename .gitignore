@@ -1,0 +1,44 @@
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Large model binaries / weights (keep .gitkeep)
+models/**
+!models/
+!models/.gitkeep
+
+# Large datasets (keep .gitkeep)
+data/raw/**
+!data/raw/
+!data/raw/.gitkeep
+data/processed/**
+!data/processed/
+!data/processed/.gitkeep
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary and build artifacts
+*.log
+.coverage
+htmlcov/
+.pytest_cache/
